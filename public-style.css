@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+:root {
+    --primary-color: #FCA311;
+    --secondary-color: #14213D;
+}
+
+.reverse {
+    direction: ltr;
+}

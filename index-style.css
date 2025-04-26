@@ -1,0 +1,113 @@
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+header > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: var(--primary-color);
+  transition: background-color 0.5 ease;
+}
+
+.log-in {
+  padding: 10px;
+  height: inherit;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  border-width: 0;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: white;
+  height: 70vh;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  padding: 50px;
+}
+
+header ul {
+  position: sticky;
+  color: white;
+  top: 0px;
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-items {
+  margin: 20px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-items:hover {
+  background-color: var(--primary-color);
+}
+
+/* about section */
+.about {
+  background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0)),
+    url("Assets/images/airplane-wing-sunset-blue-sky.jpg");
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* services section */
+.services-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+}
+
+.service-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: black;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.service-features {
+  list-style: none;
+}
+
+.service-features li {
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+.service-text p {
+  font-size: 0.8em;
+}

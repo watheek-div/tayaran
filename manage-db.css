@@ -1,0 +1,26 @@
+.table-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.table-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.table-item a:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
