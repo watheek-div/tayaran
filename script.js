@@ -9,3 +9,5 @@ window.addEventListener("scroll", function () {
       header.style.backgroundColor = "transparent"; 
     }
   });
+
+  document.getElementsByClassName
