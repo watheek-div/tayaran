@@ -54,7 +54,7 @@
 
       <main class="main-content">
         <div class="input-container"></div>
-          <form action="add-flight.php" method="POST">
+          <form action="add-edit-flight.php" method="POST">
             <div class="input-group" style="display: none;">
               <label for="destination">id</label>
               <input type="id" id="id" name="id" />
