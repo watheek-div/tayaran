@@ -77,6 +77,15 @@ header a {
   align-items: center;
 }
 
+.about p {
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  width: 80vw;
+}
+
 /* services section */
 .services-section {
   display: flex;
