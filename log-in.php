@@ -10,13 +10,7 @@
 <body>
 <?php
     session_start();
-    // Database connection
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "tayaran";
-    // Create connection
-    $con = mysqli_connect($server, $username, $password, $database);
+    require_once 'connection.php';
     //check login
     if (isset($_POST['username']) && isset($_POST['password'])) {
         $username = $_POST['username'];

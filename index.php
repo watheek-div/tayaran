@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>يسيسش</title>
+    <title>طيران</title>
     <link rel="stylesheet" href="public-style.css" />
     <link rel="stylesheet" href="index-style.css" />
     <link

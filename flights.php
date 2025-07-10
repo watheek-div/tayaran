@@ -10,11 +10,7 @@
   </head>
   <body>
     <?php
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "tayaran";
-    $conn = mysqli_connect($server, $username, $password, $database);
+    require_once 'connection.php';
     if (!$conn) {
       die("Connection failed: " . mysqli_connect_error());
     }else{
