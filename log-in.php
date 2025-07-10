@@ -18,7 +18,7 @@
         
         // Check if the username and password are correct
         $query = "SELECT * FROM users WHERE name='$username' AND password='$password'";
-        $result = mysqli_query($con, $query);
+        $result = mysqli_query($conn, $query);
         
         if (mysqli_num_rows($result) > 0) {
             header("Location: dashboard.php");
